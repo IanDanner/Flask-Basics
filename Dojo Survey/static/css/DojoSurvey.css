@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    margin: 20px auto;
+    padding: 30px;
+    width: 970px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+label{
+    display: block;
+}
+
+.selector{
+    width: 100px;
+    
+}
+
+.info{
+    display: inline-block;
+    width: 400px;
+}

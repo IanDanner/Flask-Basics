@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Great Number Game</title>
+    <style>
+        *{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>{{guess}}</h1>
+        <form action="/guess" method='post'>
+            GUESS number: <input type="text" name="num">
+            <input type="submit" value="GUESS">
+        </form>
+        <form action="/reroll" method='post'>
+            <input type="submit" value="Reroll">
+        </form>
+    </div>
+</body>
+</html>
